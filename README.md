@@ -1,5 +1,5 @@
-# Somya.github.io
-Follow me on my journey of excelling in DSA!!  
+# LeetCode July 31 days of code challenge
+Follow me on my journey of excelling in DSA and achieving the July badge on Leetcode!!  
 
 # 👩‍💻 DSA Practice Blog  
 

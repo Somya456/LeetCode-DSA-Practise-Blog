@@ -24,9 +24,9 @@ Your task is to find a path from the starting cell to the destination such that 
 ## Approach:
 
 ### Idea:
-Use a two-step graph traversal approach. We need to find a path from the top left corner (0,0) to the bottom right corner (n-1, n-1) keeping as far from the thieves as possible which are represented using 1s in the grid.\
+Use a two-step graph traversal approach. We need to find a path from the top left corner `(0,0)` to the bottom right corner `(n-1, n-1)` keeping as far from the thieves as possible which are represented using 1s in the grid.\
 Instead calculating distance from each thief every time, we will treat all thieves as a starting point in a Mutli Source BFS.\
-First push all the thieves in a queue with distance 0, all other points have a distance of -1. The BFS expands outwards and on coming to an empty cell it will update the distance.\
+First push all the thieves in a queue with distance `0`, all other points have a distance of `-1`. The BFS expands outwards and on coming to an empty cell it will update the distance.\
 Now to find the shortest path, we use Dijkstra's algorithm, here we use a max-heap instead of min-heap to give more priority to the paths with highest possible safeness factor. 
 
 ```cpp

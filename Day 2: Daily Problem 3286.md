@@ -22,9 +22,9 @@ Return **true** if you can reach the final cell with a health value of 1 or more
 ## Approach:
 
 ### Idea:
-First, we track the minimum health damage we can take to reach each cell (i,j). Then we use a 2D array initialised with a large number to store these damages. Using Dijkstra Algorithm, we start from (0,0) with initial damage grid[0][0].\
-Using a deque to explore nighbors, so when moving to an adjacent cell costs 0 we push it to the front of the deque, if it costs 1, we push it to the back.\
-If the minimum damage to reach (m-1, n-1) is strictly less than our health, that means we can reach the end with atleast 1 health point remaining, hence return true otherwise return false.
+First, we track the minimum health damage we can take to reach each cell `(i,j)`. Then we use a 2D array initialised with a large number to store these damages. Using Dijkstra Algorithm, we start from `(0,0)` with initial damage `grid[0][0]`.\
+Using a deque to explore nighbors, so when moving to an adjacent cell costs `0` we push it to the front of the deque, if it costs `1`, we push it to the back.\
+If the minimum damage to reach `(m-1, n-1)` is strictly less than our health, that means we can reach the end with atleast `1` health point remaining, hence return true otherwise return false.
 
 ```cpp
 #include <vector>
@@ -69,5 +69,5 @@ public:
 ```
 
 ## Complexity Analysis:
-Time Complexity : O(m * n log (m * n))\
-Space Complexity : O(m * n)
+Time Complexity : O(m * n log(m * n))\
+Space Complexity : O($m*n$)

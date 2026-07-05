@@ -2,7 +2,7 @@
 
 **Difficulty**:Medium
 
--
+- [Leetcode Problem 2492](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/description/?envType=daily-question&envId=2026-07-04)
 
 ## Problem Statement
 You are given a positive integer `n` representing `n` cities numbered from `1 to n`. You are also given a 2D array roads where `roads[i] = [ai, bi, distancei]` indicates that there is a bidirectional road between cities `ai` and `bi` with a distance equal to `distancei`. The cities graph is not necessarily connected.

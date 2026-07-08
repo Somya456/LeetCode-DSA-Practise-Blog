@@ -12,7 +12,7 @@ Let `sum` be the sum of digits in `x`.\
 Return an integer representing the value of `x * sum`.
 
 ### Constraints
--> 0 <= n <= 109
+-> 0 <= n <= $10^{9}$
 
 ## Approach:
 

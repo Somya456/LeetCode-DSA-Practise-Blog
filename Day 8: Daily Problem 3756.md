@@ -31,7 +31,7 @@ If we only look at non-zero digits, we can precompute an array `V` storing only 
 - $P[i] = ( P[i-1]*10 + V[i-1]) (mod 10^{9}+7)$
 
 If a query `[l,r]` maps to a contiguous subarray of non-zero digits from index $L_{nz}$ to $R_{nz}$ in our compressed list `V`, the number `x` formed by this range can be computed using the prefix array `P`:
-- $x = (P[R_{nz}+1] - P[L_{nz}] /times 10^{(R_{nz}-L_{nz}+1)}) (mod 10^{9}+7)$
+- $x = (P[R_{nz}+1] - P[L_{nz}] * 10^{(R_{nz}-L_{nz}+1)}) (mod 10^{9}+7)$
 
 To do this efficiently we precompute powers of $10 modulo 10^{9}+7$.
 To find $L_{nz}$ and $R_{nz}$ in `O(1)` time we create:

@@ -5,7 +5,7 @@
 - [Leetcode Problem 2492](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/description/?envType=daily-question&envId=2026-07-04)
 
 ## Problem Statement
-You are given a positive integer `n` representing `n` cities numbered from `1 to n`. You are also given a 2D array roads where `roads[i] = [ai, bi, distancei]` indicates that there is a bidirectional road between cities `ai` and `bi` with a distance equal to `distancei`. The cities graph is not necessarily connected.
+You are given a positive integer `n` representing `n` cities numbered from `1 to n`. You are also given a 2D array roads where $`roads[i] = [a_{i}, b_{i}, distance_{i}]`$ indicates that there is a bidirectional road between cities $`a_{i}`$ and $`b_{i}`$ with a distance equal to $`distance_{i}`$. The cities graph is not necessarily connected.
 
 The score of a path between two cities is defined as the minimum distance of a road in this path.
 
@@ -18,12 +18,12 @@ Note:
 - The test cases are generated such that there is at least one path between `1` and `n`.
 
 ### Constraints:
--> 2 <= n <= 105\
--> 1 <= roads.length <= 105\
+-> 2 <= n <= $10^{5}$\
+-> 1 <= roads.length <= $10^{5}$\
 -> roads[i].length == 3\
--> 1 <= ai, bi <= n\
--> ai != bi\
--> 1 <= distancei <= 104\
+-> 1 <= $a_{i}, b_{i}$ <= n\
+-> $a_{i} != b_{i}$\
+-> 1 <= $distance_{i}$ <= $10^{4}$\
 -> There are no repeated edges.\
 -> There is at least one path between 1 and n.
 
@@ -34,7 +34,7 @@ The way to solve this problem is to realize that we can visit any city and trave
 First, we convert the given list of roads into an adjacency list `adj` where each node points to a list of pairs `{neighbor, road_distance}`.
 Then we start a standard BFS from city 1. 
 As we explore the neighbors of each node we constantly update `min_score` with the weigh of the roads we encounter. We do this for all edges connected to any reached node, even if the neighboring node has already been visited. This helps ensure that every single edge in the connected component is considered.
-Once the queue is empty, and we have explored the entire connected component containing city 1 and city n, and `min_score` holds our answer.
+Once the queue is empty, and we have explored the entire connected component containing `city 1` and `city n`, and `min_score` holds our answer.
 
 ```cpp
 class Solution {

@@ -35,7 +35,7 @@ If a query `[l,r]` maps to a contiguous subarray of non-zero digits from index $
 
 To do this efficiently we precompute powers of $10 modulo 10^{9}+7$.
 To find $L_{nz}$ and $R_{nz}$ in `O(1)` time we create:
-- `nxt[i]` which stores the index in V of the first non-zero digit at or after index `i` in the original string. If non exists, set it to the size of `V`. 
+- `nxt[i]` which stores the index in V of the first non-zero digit at or after index `i` in the original string. If none exists, set it to the size of `V`. 
 - `last[i]` which stores the index in `V` of the last non-zero digit at or before index `i` in the original string. If none exists, set it to `-1`.
 
 For a query `[l,r]`, the corresponding range in `V` is simply:

@@ -18,7 +18,7 @@ Return the GCD of `sumOdd` and `sumEven`.
 
 ### Idea:
 Sum of the first odd `n` numbers: $1+3+5+.....+(2n-1) = n^{2}$\
-Sum of the first even `n` numbers: $2+4+6+.....+2n = n(n+1)$\
+Sum of the first even `n` numbers: $2+4+6+.....+2n = n(n+1)$
 
 We need to find `GCD(sumOdd, sumEven)` which is, $GCD(n^{2}, n(n+1))$.\
 Using the properties of GCD we can factor out `n`:

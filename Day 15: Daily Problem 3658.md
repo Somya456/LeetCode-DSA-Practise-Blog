@@ -25,7 +25,9 @@ Using the properties of GCD we can factor out `n`:
 - $$GCD(n \cdot n, n \cdot (n + 1)) = n \cdot GCD(n, n + 1)$$
 
 Since `n` and `n+1` are two consecutive integers, they are always coprime. Therefore, $\text{GCD}(n, n + 1) = 1$.\
-Substituting this back into the equation:$$\text{GCD}(n^2, n(n + 1)) = n \cdot 1 = n$$\
+Substituting this back into the equation:
+- $GCD(n^{2}, n(n+1)) = n.1 = n$
+
 Thus, the answer is always simply `n`.
 
 ```cpp

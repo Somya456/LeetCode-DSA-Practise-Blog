@@ -1,6 +1,6 @@
 # Day 10 Problem 3534: Path Existence Queries in a Graph - 2
 
-**Difficulty**:Hard
+**Difficulty**: Hard
 
 - [Leetcode Problem 3534](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/?envType=daily-question&envId=2026-07-10)
 
@@ -13,12 +13,12 @@ Return an array `answer`, where `answer[i]` is the result of the $i^{th}$ query.
 Note: The edges between the nodes are unweighted.
 
 ### Constraints
--> 1 <= n == nums.length <= $10^{5}$\
--> 0 <= nums[i] <= $10^{5}$\
--> 0 <= maxDiff <= $10^{5}$\
--> 1 <= queries.length <= $10^{5}$\
--> queries[i] == $[u_{i}, v_{i}]$\
--> 0 <= $u_{i}, v_{i}$ < n
+-> $1 \le n == nums.length \le 10^{5}$\
+-> $0 \le nums[i] \le 10^{5}$\
+-> $0 \le maxDiff \le 10^{5}$\
+-> $1 \le queries.length \le 10^{5}$\
+-> $queries[i] == [u_{i}, v_{i}]$\
+-> $0 \le u_{i}, v_{i} < n$
 
 ## Approach:
 
@@ -141,6 +141,6 @@ public:
 ```
 
 ## Complexity Analysis:
-Time Complexity: $O((n+q)log(n))$\
-Space Complexity: $O(nlog(n)+q)$\
+**Time Complexity**: $O((n+q)\log(n))$\
+**Space Complexity**: $O(n\log(n)+q)$\
 where n is the number of nodes, q is the number of queries, 

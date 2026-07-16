@@ -1,6 +1,6 @@
 # Day 5 Problem 1301: Number of Paths with Max Score
 
-**Difficulty**:Hard
+**Difficulty**: Hard
 
 - [Leetcode Problem 1301](https://leetcode.com/problems/number-of-paths-with-max-score/?envType=daily-question&envId=2026-07-05)
 
@@ -11,7 +11,7 @@ Return a list of two integers: the first integer is the maximum sum of numeric c
 In case there is no path, return `[0, 0]`.
 
 ### Constraints
--> 2 <= board.length == board[i].length <= 100
+-> $2 \le board.length == board[i].length \le 100$
 
 ## Approach:
 
@@ -79,5 +79,5 @@ public:
 };
 ```
 ## Complexity Analysis:
-Time Complexity: O($n^{2}$)\
-Space Complexity: O($n^{2}$)
+**Time Complexity**: $O(n^{2})$\
+**Space Complexity**: $O(n^{2})$

@@ -1,6 +1,6 @@
 # Day 6 Problem 1288: Remove Covered Intervals
 
-**Difficulty**:Medium
+**Difficulty**: Medium
 
 - [Leetcode Problem 1288](https://leetcode.com/problems/remove-covered-intervals/description/?envType=daily-question&envId=2026-07-06)
 
@@ -10,10 +10,10 @@ The interval `[a, b)` is covered by the interval `[c, d)` if and only if `c <= a
 Return the number of remaining intervals.
 
 ### Constraints
--> 1 <= intervals.length <= 1000\
--> intervals[i].length == 2\
--> 0 <= $l_{i}$ < $r_{i}$ <= $10^{5}$\
--> All the given intervals are unique.
+-> $1 \le intervals.length \le 1000$\
+-> $intervals[i].length == 2$\
+-> $0 \le l_{i} < r_{i} \le 10^{5}$\
+-> $\text{All the given intervals are unique.}$
 
 ## Approach:
 
@@ -53,6 +53,6 @@ public:
 };
 ```
 ## Complexity Analysis:
-Time Complexity: O($Nlog$($N$))\
-Space Complexity: O($1$) or O($N$)\
+**Time Complexity**: $O(N\log(N))$\
+**Space Complexity**: $O(1)$ or $O(N)$\
 where, N is the number of intervals.

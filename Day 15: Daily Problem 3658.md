@@ -1,6 +1,6 @@
 # Day 15 Problem 3658: GCD of Odd and Even Sums
 
-**Difficulty**:Easy
+**Difficulty**: Easy
 
 - [Leetcode Problem 3658](https://leetcode.com/problems/gcd-of-odd-and-even-sums/?envType=daily-question&envId=2026-07-15)
 
@@ -39,7 +39,7 @@ public:
 };
 ```
 ## Complexity Analysis:
-Time Complexity: $O(1)$\
-Space Complexity: $O(1)$
+**Time Complexity**: $O(1)$\
+**Space Complexity**: $O(1)$
 
 

@@ -1,6 +1,6 @@
 # Day 2 Problem 3286: Find a Safe Walk Through a Grid
 
-**Difficulty**:Medium
+**Difficulty**: Medium
 
 - [Leetcode Problem 3286 ](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/?envType=daily-question&envId=2026-07-02)
 
@@ -12,12 +12,12 @@ Cells `(i, j) with grid[i][j] = 1` are considered unsafe and reduce your health 
 Return `True` if you can reach the final cell with a health value of `1` or more, and `False` otherwise.
 
 ## Constraints:
--> m == grid.length\
--> n == grid[i].length\
--> 1 <= m, n <= 50\
--> 2 <= m * n\
--> 1 <= health <= m + n\
--> grid[i][j] is either 0 or 1.
+-> $m == grid.length$\
+-> $n == grid[i].length$\
+-> $1 \le m, n \le 50$\
+-> $2 \le m \times n$\
+-> $1 \le health \le m + n$\
+-> $\text{grid[i][j] is either 0 or 1.}$
 
 ## Approach:
 
@@ -69,5 +69,5 @@ public:
 ```
 
 ## Complexity Analysis:
-Time Complexity : O(m * n log(m * n))\
-Space Complexity : O($m*n$)
+**Time Complexity**: $O(m \times n \log(m \times n))$\
+**Space Complexity**: $O(m \times n)$

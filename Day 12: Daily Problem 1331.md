@@ -1,6 +1,6 @@
 # Day 12 Problem 1331: Rank Transformation of an Array
 
-**Difficulty**:Easy
+**Difficulty**: Easy
 
 - [Leetcode Problem 1331](https://leetcode.com/problems/rank-transform-of-an-array/?envType=daily-question&envId=2026-07-12)
 
@@ -12,8 +12,8 @@ The rank represents how large the element is. The rank has the following rules:
 - Rank should be as small as possible.
 
 ### Constraints
--> 0 <= arr.length <= $10^{5}$\
--> $-10^{9}$ <= arr[i] <= $10^{9}$
+-> $0 \le arr.length \le 10^{5}$\
+-> $-10^{9} \le arr[i] \le 10^{9}$
 
 ## Approach:
 
@@ -50,5 +50,5 @@ public:
 ```
 
 ## Complexity Analysis:
-Time Complexity: $O(NlogN)$\
-Space Complexity: $O(N)$
+**Time Complexity**: $O(NlogN)$\
+**Space Complexity**: $O(N)$

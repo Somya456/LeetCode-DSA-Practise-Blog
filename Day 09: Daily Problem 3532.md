@@ -1,6 +1,6 @@
 # Day 9 Problem 3532: Path Existence Queries in a Graph - 1
 
-**Difficulty**:Medium
+**Difficulty**: Medium
 
 - [Leetcode Problem 3532](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/?envType=daily-question&envId=2026-07-09)
 
@@ -12,13 +12,13 @@ You are also given a 2D integer array `queries`. For each $queries[i] = [u_{i}, 
 Return a boolean array `answer`, where `answer[i]` is `true` if there exists a path between $u_{i}$ and $v_{i}$ in the $i^{th}$ query and `false` otherwise.
 
 ### Constraints
--> 1 <= n == nums.length <= $10^{5}$\
--> 0 <= nums[i] <= $10^{5}$\
--> nums is sorted in non-decreasing order.\
--> 0 <= maxDiff <= $10^{5}$\
--> 1 <= queries.length <= $10^{5}$\
--> queries[i] == $[u_{i}, v_{i}]$\
--> 0 <= $u_{i}, v_{i}$ < n
+-> $1 \le n == nums.length \le 10^{5}$\
+-> $0 \le nums[i] \le 10^{5}$\
+-> $\text{nums is sorted in non-decreasing order.}$\
+-> $0 \le maxDiff \le 10^{5}$\
+-> $1 \le queries.length \le 10^{5}$\
+-> $queries[i] == [u_{i}, v_{i}]$\
+-> $0 \le u_{i}, v_{i} < n$
 
 ## Approach:
 
@@ -56,6 +56,6 @@ public:
 };
 ```
 ## Complexity Analysis:
-Time Complexity: $O(n+q)$\
-Space Complexity: $O(n)$\
+**Time Complexity**: $O(n+q)$\
+**Space Complexity**: $O(n)$\
 where, $q=queries.length()$ and $n=nums.length()$.

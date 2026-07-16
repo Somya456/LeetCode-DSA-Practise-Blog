@@ -1,6 +1,6 @@
 # Day 1 Problem 2812: Find the Safest Path in a Grid
  
-**Difficulty**:Medium  
+**Difficulty**: Medium  
 
 - [Leetcode Problem 2812](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/?envType=daily-question&envId=2026-07-01)
   
@@ -16,10 +16,10 @@ Your task is to find a path from the starting cell to the destination such that 
 
 ### Constraints:
 
--> 1 <= grid.length == n <= 400\
--> grid[i].length == n\
--> grid[i][j] is either 0 or 1.\
--> There is at least one thief in the grid.
+-> $1 \le grid.length == n \le 400$\
+-> $grid[i].length == n$\
+-> $\text{grid[i][j] is either 0 or 1.}$\
+-> $\text{There is at least one thief in the grid.}$
 
 ## Approach:
 
@@ -106,5 +106,5 @@ public:
 };
 ```
 ## Complexity Analysis:
-Time Complexity : O($n^{2}$ log n)\
-Space Complexity : O($n^{2}$)
+**Time Complexity**: $O(n^{2} \log n)$\
+**Space Complexity**: $O(n^{2})$

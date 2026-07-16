@@ -1,6 +1,6 @@
 # Day 4 Problem 2492: Minimum Score of a Path Between Two Cities
 
-**Difficulty**:Medium
+**Difficulty**: Medium
 
 - [Leetcode Problem 2492](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/description/?envType=daily-question&envId=2026-07-04)
 
@@ -18,14 +18,14 @@ Note:
 - The test cases are generated such that there is at least one path between `1` and `n`.
 
 ### Constraints:
--> 2 <= n <= $10^{5}$\
--> 1 <= roads.length <= $10^{5}$\
--> roads[i].length == 3\
--> 1 <= $a_{i}, b_{i}$ <= n\
+-> $2 \le n \le 10^{5}$\
+-> $1 \le roads.length \le 10^{5}$\
+-> $roads[i].length == 3$\
+-> $1 \le a_{i}, b_{i} \le n$\
 -> $a_{i} != b_{i}$\
--> 1 <= $distance_{i}$ <= $10^{4}$\
--> There are no repeated edges.\
--> There is at least one path between 1 and n.
+-> $1 \le distance_{i} \le 10^{4}$\
+-> $\text{There are no repeated edges.}$\
+-> $\text{There is at least one path between 1 and n.}$
 
 ## Approach:
 
@@ -71,8 +71,8 @@ public:
 };
 ```
 ## Complexity Analysis:
-Time Complexity : O(V+E)\
-Space Complexity : O(V+E)
+**Time Complexity**: $O(V+E)$\
+**Space Complexity**: $O(V+E)$
 
 Where V is the number of cities(n) and E is the number of roads(roads.length)
 

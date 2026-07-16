@@ -1,6 +1,6 @@
 # Day 8 Problem 3756: Concatenate Non-Zero Digits and Multiply by Sum - 2
 
-**Difficulty**:Medium
+**Difficulty**: Medium
 
 - [Leetcode Problem 3756](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/?envType=daily-question&envId=2026-07-08)
 
@@ -13,11 +13,11 @@ Return an array of integers `answer` where `answer[i]` is the answer to the `ith
 Since the answers may be very large, return them modulo $10^{9} + 7$.
 
 ### Constraints
--> 1 <= m == s.length <= $10^{5}$\
--> s consists of digits only.\
--> 1 <= queries.length <= $10^{5}$\
--> queries[i] = $[l_{i}, r_{i}]$\
--> 0 <= $l_{i}$ <= $r_{i}$ < m
+-> $1 \le m == s.length \le 10^{5}$\
+-> $\text{s consists of digits only.}$\
+-> $1 \le queries.length \le 10^{5}$\
+-> $queries[i] = [l_{i}, r_{i}]$\
+-> $0 \le l_{i} \le r_{i} < m$
 
 ## Approach:
 
@@ -116,6 +116,6 @@ public:
 };
 ```
 ## Complexity Analysis:
-Time Complexity: $O(m+Q)$\
-Space Complexity: $O(m)$\
+**Time Complexity**: $O(m+Q)$\
+**Space Complexity**: $O(m)$\
 where $m$ is the length of the string and $Q$ is the number of queries.

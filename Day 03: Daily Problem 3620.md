@@ -1,6 +1,6 @@
 # Day 3 Problem 3620: Network Recovery Pathways
 
-**Difficulty**:Hard
+**Difficulty**: Hard
 
 - [Leetcode Problem 3620](https://leetcode.com/problems/network-recovery-pathways/?envType=daily-question&envId=2026-07-03)
 
@@ -17,16 +17,16 @@ Return the maximum path score (i.e., the largest minimum-edge cost) among all va
 
 ### Constraints
 
-->n == online.length\
-->2 <= n <= 5 * $10^{4}$\
-->0 <= m == edges.length <= min($`10^{5}`$, n * (n - 1) / 2)\
-->edges[i] = $`[u_{i}, v_{i}, cost_{i}]`$\
-->0 <= $`u_{i}, v_{i}`$ < n\
-->$`u_{i} != v_{i}`$\
-->0 <= $cost_{i}$ <= $10^{9}$\
-->0 <= k <= 5 * $10^{13}$\
-->online[i] is either true or false, and both online[0] and online[n − 1] are true.\
-->The given graph is a directed acyclic graph.
+-> $n == online.length$\
+-> $2 \le n \le 5 \times 10^{4}$\
+-> $0 \le m == edges.length \le min(10^{5}, \frac {n \times (n - 1)}{2})$\
+-> $edges[i] = [u_{i}, v_{i}, cost_{i}]$\
+-> $0 \le u_{i}, v_{i} < n$\
+-> $u_{i} != v_{i}$\
+-> $0 \le cost_{i} \le 10^{9}$\
+-> $0 \le k \le 5 \times 10^{13}$\
+-> $\text{online[i] is either true or false, and both online[0] and online[n − 1] are true.}$\
+-> $\text{The given graph is a directed acyclic graph.}$
 
 ## Approach:
 
@@ -110,8 +110,8 @@ public:
 };
 ```
 ## Complexity Analysis:
-Time Complexity : O($(n+m)logc$)\
-Space Complexity : O($n+m$)
+**Time Complexity**: $O((n+m)logc)$\
+**Space Complexity**: $O(n+m)$
 
 
 

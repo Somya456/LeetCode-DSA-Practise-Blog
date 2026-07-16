@@ -1,6 +1,6 @@
 # Day 7 Problem 3754: Concatenate Non-Zero Digits and Multiply by Sum - 1
 
-**Difficulty**:Easy
+**Difficulty**: Easy
 
 - [Leetcode Problem 3754](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/?envType=daily-question&envId=2026-07-07)
 
@@ -12,7 +12,7 @@ Let `sum` be the sum of digits in `x`.\
 Return an integer representing the value of `x * sum`.
 
 ### Constraints
--> 0 <= n <= $10^{9}$
+-> $0 \le n \le 10^{9}$
 
 ## Approach:
 
@@ -44,5 +44,5 @@ public:
 };
 ```
 ## Complexity Analysis:
-Time Complexity: $O(log_{10} n)$ \
-Space Complexity: O(1)
+**Time Complexity**: $O(log_{10} n)$ \
+**Space Complexity**: $O(1)$

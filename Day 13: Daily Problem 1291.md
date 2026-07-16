@@ -1,6 +1,6 @@
 # Day 13 Problem 1291: Sequential Digits
 
-**Difficulty**:Medium
+**Difficulty**: Medium
 
 - [Leetcode Problem 1291](https://leetcode.com/problems/sequential-digits/?envType=daily-question&envId=2026-07-13)
 
@@ -9,7 +9,7 @@ An integer has sequential digits if and only if each digit in the number is one 
 Return a sorted list of all the integers in the range `[low, high]` inclusive that have sequential digits.
 
 ### Constraints
--> 10 <= low <= high <= $10^{9}$
+-> $10 \le low \le high \le 10^{9}$
 
 ## Approach:
 
@@ -44,5 +44,5 @@ public:
 };
 ```
 ## Complexity Analysis:
-Time Complexity: $O(1)$\
-Space Complexity: $O(1)$
+**Time Complexity**: $O(1)$\
+**Space Complexity**: $O(1)$

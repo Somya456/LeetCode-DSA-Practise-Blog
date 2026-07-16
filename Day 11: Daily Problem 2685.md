@@ -1,6 +1,6 @@
 # Day 11 Problem 2685: Count the Number of Complete Components
 
-**Difficulty**:Medium
+**Difficulty**: Medium
 
 - [Leetcode Problem 2685](https://leetcode.com/problems/count-the-number-of-complete-components/?envType=daily-question&envId=2026-07-11)
 
@@ -11,12 +11,12 @@ A connected component is a subgraph of a graph in which there exists a path betw
 A connected component is said to be complete if there exists an edge between every pair of its vertices.
 
 ### Constraints
--> 1 <= n <= 50\
--> 0 <= edges.length <= n * (n - 1) / 2\
--> edges[i].length == 2\
--> 0 <= $a_{i}, b_{i}$ <= n - 1\
+-> $1 \le n \le 50$\
+-> $0 \le edges.length \le \frac{n \times (n - 1)}{2}$\
+-> $edges[i].length == 2$\
+-> $0 \le a_{i}, b_{i} \le n - 1$\
 -> $a_{i} != b_{i}$\
--> There are no repeated edges.
+-> $\text{There are no repeated edges}$.
 
 ## Approach:
 
@@ -76,5 +76,5 @@ public:
 ```
 
 ## Complexity Analysis:
-Time Complexity: $O(V+E)$\
-Space Complexity: $O(V+E)$
+**Time Complexity**: $O(V+E)$\
+**Space Complexity**: $O(V+E)$

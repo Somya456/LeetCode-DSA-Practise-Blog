@@ -1,6 +1,6 @@
 # Day 14 Problem 3336: Find the Number of Subsequences with Equal GCD
 
-**Difficulty**:Hard
+**Difficulty**: Hard
 
 - [Leetcode Problem 3336](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/?envType=daily-question&envId=2026-07-14)
 
@@ -14,8 +14,8 @@ Your task is to find the number of pairs of non-empty subsequences `(seq1, seq2)
 Since the answer may be very large, return it $modulo 10^{9} + 7$.
 
 ### Constraints
--> 1 <= nums.length <= 200\
--> 1 <= nums[i] <= 200
+-> $1 \le nums.length \le 200$\
+-> $1 \le nums[i] \le 200$
 
 ## Approach:
 
@@ -90,6 +90,6 @@ public:
 ```
 
 ## Complexity Analysis:
-Time Complexity: $O(N.M^{2})$\
-Space Complexity: $O(M^{2})$\
+**Time Complexity**: $O(N.M^{2})$\
+**Space Complexity**: $O(M^{2})$\
 Where N is $nums.length()$ and M is $max(nums)$.

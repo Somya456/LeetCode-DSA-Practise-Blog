@@ -1,6 +1,6 @@
 # Day 18 Problem 1979: Find Greatest Common Divisor of Array
 
-**Complexity**: Easy
+**Difficulty**: Easy
 
 - [Leetcode Problem 1979](https://leetcode.com/problems/find-greatest-common-divisor-of-array/?envType=daily-question&envId=2026-07-18)
 

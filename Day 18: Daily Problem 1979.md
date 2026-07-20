@@ -34,7 +34,7 @@ public:
 };
 ```
 ## Complexity Analysis:
-**Time Complexity**: $O(N+log(min(min_val, max_val)))$\
+**Time Complexity**: $O(N+log(min(minval, maxval)))$\
 **Space Complexity**: $O(1)$
 
  

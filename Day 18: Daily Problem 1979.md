@@ -10,7 +10,7 @@ Given an integer array `nums`, return the greatest common divisor of the smalles
 The greatest common divisor of two numbers is the largest positive integer that evenly divides both numbers.
 
 ### Constraints
--> $2 \le nums.length \le 1000$
+-> $2 \le nums.length \le 1000$\
 -> $1 \le nums[i] \le 1000$
 
 ## Approach:
